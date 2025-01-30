@@ -83,6 +83,3 @@ $$
 ---
 
 - **Overall similarity percentage across all files** is 62.50%
-
-
-This project uses the **Cosine Similarity** algorithm to compare texts and detect plagiarism. Leveraging **Natural Language Processing (NLP)** techniques along with **vector-based text comparison** improves the accuracy of the system. The final results include the **similarity percentage** for each reference file and the **overall similarity** of the analyzed file with all sources.
