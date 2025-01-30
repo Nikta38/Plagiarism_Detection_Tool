@@ -44,9 +44,9 @@ Cosine Similarity is a widely used method in Natural Language Processing (NLP) t
 
 ### Cosine Similarity Formula:
 
-\[
+$$
 \text{similarity}(A,B) = \frac{A \cdot B}{||A|| \times ||B||}
-\]
+$$
 
 Where:
 - **A and B** are the word vectors of the two sentences being compared.
