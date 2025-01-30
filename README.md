@@ -57,15 +57,32 @@ Where:
 
 After computing sentence similarities, the similarity percentage between the input file and each reference file is determined as follows:
 
-\[
+$$
 \text{Similarity Percentage for Each File} = \frac{\text{Number of Similar Sentences}}{\text{Total Sentences in Input File}} \times 100
-\]
+$$
 
 Then, the overall similarity percentage across all reference files is computed using:
 
-\[
+$$
 \text{Overall Similarity Percentage} = \frac{\sum \text{Similarity Percentage for Each File}}{\text{Number of Similar Files}}
-\]
+$$
 
 ## Example System Output
 
+- **Today the internet is an integral part of daily life influencing nearly every aspect of society from communication and entertainment to education and commerce**  
+  *100.00% similarity found in file 3.txt*
+
+- **The internet continues to evolve with advancements in technologies such as 5G, the internet of things (IoT), and artificial intelligence shaping the future of the online world**  
+  *70.00% similarity found in file 3.txt*
+
+---
+
+- **Percentage of similarity to file 1.txt** is 50.00%  
+- **Percentage of similarity to file 3.txt** is 75.00%
+
+---
+
+- **Overall similarity percentage across all files** is 62.50%
+
+
+This project uses the **Cosine Similarity** algorithm to compare texts and detect plagiarism. Leveraging **Natural Language Processing (NLP)** techniques along with **vector-based text comparison** improves the accuracy of the system. The final results include the **similarity percentage** for each reference file and the **overall similarity** of the analyzed file with all sources.
